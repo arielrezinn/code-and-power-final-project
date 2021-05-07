@@ -1,0 +1,20 @@
+<?php
+include "../reused-components/constants.php";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reflection - Michael Vanden Heuvel</title>
+    </head>
+    <body class="pg-reflections">
+        <?php include "../reused-components/navbar.php"; ?>
+        <h1>Reflection - Michael Vanden Heuvel</h1>
+        <div class="container">
+            <p style="text-indent:30px">    I really enjoyed working on the final project. I thought it was a nice bookend to the course, allowing us to apply course topics to web design. As a student studying computer science, I really enjoyed the blend of technical skills and societal topics related to my field of study that this course offered. I really enjoyed reading the “Algorithms of Oppression” readings by Noble. I’ve heard of the theoretical issues surrounding mass deployment of AI, but it was eye opening to see specific examples of glaring flaws at a company like Google. I also liked our discussion surrounding meritocracy and ways that we can poke holes in the idea that corporate culture, and the United States as a whole, has a meritocratic structure. Due to this course, I feel I am better equipped to defend my positions relating to privacy and data collection. I thought this course was very interesting because I found that the way in which we presented the information, i.e. php web pages, was very engaging for me. I also really liked the format of the final project. I liked that the project had multiple stages where we would receive feedback and advice from our peers, this iterative approach was very appealing to me. I also enjoyed seeing which topic each group decided to use for their surveys.I find that oftentimes classes compartmentalize students so it’s not often that you get to see other students’ final projects. </p> 
+            <p style="text-indent:30px">For portions of the assignment, such as creating the questions for the survey or writing our group reflection, our group was able to easily collaborate and work together in real time. However, when it came to working together on the site, there was a little more difficulty. We spent time in a video call together where we would all collaborate on a single feature and other times when we would each work on our own specific features. It was a bit of a hassle to work on the website at the same time because we would have to coordinate when we each were able to edit files so as to not overwrite a different group member's progress. However, it wasn’t long before we had a passable work flow figured out. However, I think if we were to do the project again, I would have advocated strongly for our group to use version control, such as Git.</p> 
+            <p style="text-indent:30px">In regards to my contributions to the final project, firstly, I created documents for each of our main meetings which included action items and some ideas of how we could accomplish our tasks. This gave our group a clear direction for each meeting and things to consider. In regards to the site itself, I implemented the first version of our css design based off of conversions that our group had. We agreed that we wanted a “peachy” theme so I created a simple mock up for our css with a color palette that I thought fit this description. Other members of my group revised and refined this initial stlye mockup for the final design of our site which you can see now. I also added the reflection pages for each of our group members, so that all they needed to do was drop in the text for their individual reflection and handle some formatting. I also implemented the drop down menu for the reflection pages based on a tutorial I found online (source cited in the code). Lastly, like the rest of my group, I worked on miscellaneous styling, contributing to the questions, group reflection, and ensuring our site was w3c valid.</p>
+        </div>
+        <?php include "../reused-components/footer.php"; ?>
+    </body>
+</html>

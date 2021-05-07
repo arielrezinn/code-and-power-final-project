@@ -1,0 +1,47 @@
+.container {
+    background: #fff;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 50px rgba(229, 152, 155, 0.15);
+    margin-top: 2rem;
+}
+/* source: https://www.w3schools.com/css/tryit.asp?filename=trycss_table_striped */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.05);
+    font-family: Arial, Helvetica, sans-serif;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.05);
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr:nth-child(even) {
+    background: #f4f4f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr:nth-child(odd) {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.q-definitions {
+    font-size: 0.75rem;
+}
+.q-definitions a {
+    text-decoration: none;
+    color: #6d6875;
+}
+.q-definitions a:hover {
+    color: black;
+    transition: all 0.2s ease-out 0s;
+}
+.q-definitions a:focus {
+    color: black;
+}

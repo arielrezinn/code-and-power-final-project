@@ -1,0 +1,22 @@
+.container {
+    width: 40%!important;
+}
+
+h2 {
+    color: #6d6875;
+}
+
+.q-definitions {
+    font-size: 0.75rem;
+}
+.q-definitions a {
+    text-decoration: none;
+    color: #6d6875;
+}
+.q-definitions a:hover {
+    color: black;
+    transition: all 0.2s ease-out 0s;
+}
+.q-definitions a:focus {
+    color: black;
+}
