@@ -1,0 +1,166 @@
+/* GENERAL */
+body {
+    margin: 0;
+    background: #FFEAD3;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /*align-content: center;*/
+    /*text-align: center;*/
+}
+.container {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    color: #3E3B42;
+}
+h2 {
+    color: #3E3B42;
+}
+*:focus {
+    outline: 5px dashed #34E8FF;
+}
+
+/* NAVBAR */
+.nav-ul {
+    text-align: left;
+    background: #ECAF9A;
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    width: 100%;
+    /*transition: all 0.2s ease-out 0s;*/
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.nav-ul a {
+    float:left;   
+    display: block;
+    color: #3E3B42;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-ul a:hover {
+    background: #cd8e94;
+    transition: all 0.2s ease-out 0s;
+}
+.dropdown {
+    float: left;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #3E3B42;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown:hover .dropbtn {
+    background-color: #cd8e94;
+}
+.dropbtn:focus {
+    outline: 5px dashed #34E8FF;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ECAF9A /*#f2a69f*/;
+    min-width: 100% /*160px*/;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    float: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /*width:inherit;*/
+}
+.dropdown:hover .dropdown-content /*, .dropdown:focus-within .dropdown-content*/{
+    display: block;
+}
+.dropdown:focus-within .dropdown-content{
+    display: block;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 2rem /*10%*/;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.footer-content {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pg-results .footer, .pg-reflections .footer, .pg-analysis .footer {
+    position: static;
+    bottom: auto;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+.footer a {
+    /*font-style: italic;*/
+    font-weight: bold;
+    /*text-decoration: none;*/
+}
+
+/* RESOURCES PAGE */
+.pg-resources .container p {
+    line-height: 2;
+}
+
+/* COMMON ELEMENTS*/
+.pg-instructions .container, .pg-homepage .container, .pg-questions .container, .pg-reflections .container, .pg-resources .container, .pg-analysis .container {
+    background: #fff;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 50px rgba(229, 152, 155, 0.15);
+}
+
+/*.pg-analysis .container p{*/
+/*    text-indent:30px*/
+/*}*/
+
+.pg-instructions .container p, .pg-homepage .container p, .pg-404 p {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.q-button, .btn-404, .btn-homepage, .btn-instructions {
+    background: #ECAF9A;
+    color: #3E3B42;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    border: 0px;
+    font-size: 1.05rem;
+}
+.q-button:hover, .btn-404:hover, .btn-homepage:hover, .btn-instructions:hover {
+    transition: all 0.2s ease-out 0s;
+    background: #cd8e94; 
+}
+.footer a, .resource-link {
+    color: #3E3B42;
+}
